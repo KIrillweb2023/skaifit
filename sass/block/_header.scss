@@ -1,0 +1,66 @@
+.header{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.61);
+    padding-top: 10px;
+    
+    nav{
+        margin-left: 00px;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    &__logo{
+        img{
+            width: 50px;
+        }
+    }
+    .logo_title{
+        margin-left: -170px;
+        margin-top: 6px;
+        font-family: 'Delicious Handrawn', sans-serif;
+    }
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        margin-top: 19px;
+        &__item{
+            list-style-type: none;
+            
+        }
+        &_link{
+            font-size: 17px;
+            color: #000;
+            text-decoration: none;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+    .login__button{
+        width: 90px;
+        height: 40px;
+        border: 3px solid rgb(152, 197, 255);
+        border-radius: 10px;
+        margin-top: 7px;
+        font-size: 15px;
+        background-color: #fff;
+        transition: 0.6s;
+        text-transform: uppercase;
+        font-weight: 700;
+        box-shadow: 5px 5px 5px rgb(143, 143, 143);
+        a{
+            color: #000;
+            text-decoration: none;
+        }
+        &:hover{
+            background-color: rgb(152, 197, 255);
+            box-shadow: none;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

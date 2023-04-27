@@ -1,0 +1,74 @@
+.creating{
+    min-height: 1000px;
+    background-color: rgb(241, 241, 241);
+    .home_arr{
+        position: relative;
+        display: flex;
+        img{
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 30px;
+        }
+    }
+    
+    &__title{
+        padding-top: 40px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .wrapper{
+        width: 400px;
+        height: 450px;
+        background-color: #fff;
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px;
+        margin-top: 200px;
+        box-shadow: 5px 5px 5px rgb(216, 216, 216)
+    }
+    
+    .btn{
+        width: 300px;
+        height: 35px;
+        border-radius: 20px;
+        border: none;
+        display: block;
+        margin: 0 auto;
+        font-size: 17px;
+        margin-top: 30px;
+        background-color: rgb(199, 223, 255);
+        box-shadow: 5px 5px 5px rgb(158, 158, 158);
+        &:hover{
+            box-shadow: none;
+        }
+    }
+    &_login{
+        margin-top: 200px;
+    }
+    .communities{
+        &__title{
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Bebas Neue', sans-serif;
+            margin-top: 20px;
+        }
+        .communit{
+            display: flex;
+            justify-content: center;
+        }
+        .link_cmnt{
+            text-decoration: none;
+            margin-left: 20px;
+            margin-top: 20px;
+            &:nth-child(1){
+                margin-left: 0;
+            }
+            img{
+                width: 25px;
+               
+            }
+        }
+    }
+}
