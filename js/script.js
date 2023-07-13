@@ -33,7 +33,7 @@ document.addEventListener('keydown', (e) =>{
 
 
 // timer
-const deadline = '2023-05-01';
+const deadline = '2023-13-07';
 
 function setGetTimer(endtime){
     const r = Date.parse(endtime) - Date.parse(new Date());
